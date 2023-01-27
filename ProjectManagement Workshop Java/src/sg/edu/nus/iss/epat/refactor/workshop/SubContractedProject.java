@@ -4,13 +4,6 @@ public class SubContractedProject extends Project {
 	private String subContractedCompany = null;
 	private String contactPerson = null;
 
-	public void addMember(String member) {
-	}
-
-	public String removeMember(String member) {
-		return null;
-	}
-
 	public String getSubContractedCompany() {
 		return subContractedCompany;
 	}

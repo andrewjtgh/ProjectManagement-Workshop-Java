@@ -1,27 +1,15 @@
 package sg.edu.nus.iss.epat.refactor.workshop;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Project {
 	private String name = null;
 	private Duration duration = null;
 	private double rate = 0.0;
 	private int effortRequired = 0;;
-	private List<String> members;
+
 	private String manager = null;
 
 	public Project() {
-		members = new ArrayList<String>();
-	}
-
-	public void addMember(String member) {
-		members.add(member);
-	}
-
-	public String removeMember(String member) {
-		members.remove(member);
-		return member;
+		super();
 	}
 
 	public void addManager(String manager) {
@@ -58,10 +46,6 @@ public class Project {
 
 	public void setEffortRequired(int effortRequired) {
 		this.effortRequired = effortRequired;
-	}
-
-	public List<String> getMembers() {
-		return members;
 	}
 
 	public String getManager() {
