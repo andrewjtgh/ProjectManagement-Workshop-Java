@@ -4,7 +4,7 @@ import org.junit.runners.Suite;
 
 @RunWith(Suite.class)
 @Suite.SuiteClasses({
-	ProjectTest.class
+	RegularProjectTest.class
 })
 public class AllTests  {
 

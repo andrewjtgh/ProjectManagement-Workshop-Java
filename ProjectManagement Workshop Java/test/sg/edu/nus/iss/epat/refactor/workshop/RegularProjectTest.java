@@ -7,15 +7,15 @@ import static org.junit.Assert.assertTrue;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ProjectTest {
+public class RegularProjectTest {
 	private final String MEMBER_NAME1 = "Anne";
 	private final String MEMBER_NAME2 = "John";
 	
-	private Project project = null;
+	private RegularProject project = null;
 
 	@Before
 	public void setUp() {
-		project = new Project();
+		project = new RegularProject();
 	}
 
 	@Test
